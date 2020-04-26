@@ -1,0 +1,25 @@
+<!--pages/shopcar/shopcar.wxml-->
+
+
+<view class="order">购物车</view>
+<view class="userInfo">
+<view class="address" bindtap='map'>{{address}}</view>
+<view class="a">用户名：<input class="name" placeholder="请输入用户名"></input></view>
+<view class="a">手机号：<input class="name" placeholder="请输入手机号"></input></view>
+<view class="a">备  注：<input class="name" placeholder="请输入备注"></input></view>
+<view>详细地址：</view>
+<input placeholder="请输入单元楼层，门牌号"></input>
+</view>
+<view class="order"><block wx:for="{{shopCar}}" wx:key="key"  >
+<view class="name" >菜品：{{item.cuisineName}}</view>
+<view  class="price"> 价格：{{item.cuisinePrice}}</view>
+
+<view>数量：{{item.num}}</view>
+
+</block>
+<view class="white"></view>
+</view>
+<view class="end">
+<view class="prize">总价：{{count}}元</view>
+<view class='count'  >结算</view>
+</view>

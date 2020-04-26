@@ -1,0 +1,68 @@
+/* pages/shopcar/shopcar.wxss */
+.userInfo{
+  width: 670rpx;
+  height: 600rpx;
+  overflow: hidden;
+  border: 1px solid gray;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.address{
+  width: 750rpx;
+  height: 200rpx;
+  font-size: 40rpx;
+  color: blue;
+  line-height: 200rpx;
+  align-items: center;
+  padding-left: 60rpx;
+  border-bottom: 1rpx solid gray
+}
+.a{
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  float: left;
+}
+.name{
+  width: 500rpx;
+  height: 60rpx;
+ 
+}
+.end{
+  position: fixed;
+  bottom: 0;
+    display: flex;
+  width: 750rpx;
+  height: 100rpx;
+  float: left;
+  margin-top: 50rpx;
+  border: 1px solid black;
+  background-color: white;
+}
+.prize{
+  height: 100rpx;
+  line-height: 100rpx;
+  align-items: center;
+  width: 300rpx;
+  margin-left: 60rpx;
+}
+.count{
+  position: absolute;
+  right: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  align-items: center;
+  width: 250rpx;
+  background-color: orange;
+  text-align: center
+}
+.order{
+  margin-top: 20rpx;
+  width: 750rpx;
+  height: auto;
+  padding-left:60rpx; 
+}
+.white{
+  width: 750rpx;
+  height: 200rpx;
+  }

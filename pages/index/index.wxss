@@ -1,0 +1,61 @@
+.bg{
+  width: 750rpx;
+  height: 200rpx;
+  border: 1px solid red;
+  position: relative;
+}
+.count{
+  display: flex;
+  height: 100rpx;
+  width: 200rpx;
+  position: absolute;
+  top:100rpx;
+  right: 0;
+  border: 1px solid red;
+  line-height: 100rpx;
+  text-align: center;
+}
+.add{
+  margin-top:30rpx;
+  width: 40rpx;
+  height: 40rpx;
+ border: 1px solid red;
+border-radius: 50%;
+font-size: 40rpx;
+line-height: 40rpx;
+margin-left: 20rpx;
+margin-right: 20rpx;
+text-align: center;
+}
+.reduce{
+  margin-top:30rpx;
+  width: 40rpx;
+  height: 40rpx;
+ border: 1px solid red;
+border-radius: 50%;
+font-size: 40rpx;
+margin-left: 20rpx;
+text-align: center;
+line-height: 40rpx;
+}
+.shopcar{
+  width: 750rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+
+}
+.jiesuan{
+  width: 300rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 0;
+  background-color: sandybrown;
+  text-align: center;
+  line-height: 100rpx;
+}
+.place{
+  width: 750rpx;
+  height: 100rpx;
+}

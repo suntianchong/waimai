@@ -1,0 +1,31 @@
+/* pages/wode/wode.wxss */
+.head_bg{
+  width: 750rpx;
+  height: 300rpx;
+  background-color: orange;
+  margin: 0
+}
+.user_Img{
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  top: 60rpx;
+  left:60rpx;
+  border-radius: 50%;
+  overflow: hidden
+}
+.user_Name{
+  position: absolute;
+  left: 240rpx;
+  top: 100rpx;
+  font-size: 40rpx;
+}
+.my_order{
+  width: 750rpx;
+  height: 120rpx;
+  font-size: 40rpx;
+  align-items: center;
+  line-height: 120rpx;
+  padding-left: 60rpx;
+  border-bottom: 1.5px solid gray
+}

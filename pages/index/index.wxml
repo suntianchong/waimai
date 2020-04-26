@@ -1,0 +1,11 @@
+<block wx:for="{{array}}" wx:key="key"  >
+<view class='bg'>
+<view class="name" >菜品：{{item.cuisineName}}</view>
+<view  class="price"> 价格：{{item.cuisinePrice}}</view>
+
+<view class="count" ><view class="add" bindtap="add" data-num="{{item.num}}" data-id="{{item.objectId}}">+</view>
+{{item.num}}<view class="reduce" bindtap="reduce" data-num="{{item.num}}" data-id="{{item.objectId}}">-</view></view>
+</view>
+</block>
+<view class="place"></view>
+<view class="shopcar"><view class="jiesuan" bindtap="toShopCar">购物车</view></view>
